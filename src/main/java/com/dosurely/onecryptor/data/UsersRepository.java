@@ -7,4 +7,7 @@ import com.dosurely.onecryptor.entity.Users;
 public interface UsersRepository extends CrudRepository<Users, Long> {
 
 	public Users findByName(String username);
+	
+	@SuppressWarnings("unchecked")
+	public Users save(Users user);
 }

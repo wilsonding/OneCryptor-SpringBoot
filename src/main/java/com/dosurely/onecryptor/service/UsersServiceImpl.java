@@ -18,4 +18,10 @@ public class UsersServiceImpl implements UsersSerivce {
 		return usersRepository.findByName(name);
 	}
 
+	@Override
+	public Users createUser(Users user) {
+		// TODO Auto-generated method stub
+		return usersRepository.save(user);
+	}
+
 }
