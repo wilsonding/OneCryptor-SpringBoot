@@ -9,7 +9,6 @@
 *.iml
 /bin/
 /tmp
-**/*/application*.properties
 /out
 /mongo
 test-output
